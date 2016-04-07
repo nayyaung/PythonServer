@@ -17,9 +17,9 @@ requests_log.propagate = True
 
 class MyHandler(BaseHTTPRequestHandler):
 
-    def __init__(self):
-        self.concurrentConnection = 0
-        BaseHTTPRequestHandler.__init__(self)
+#    def __init__(self):
+#        self.concurrentConnection = 0
+#        BaseHTTPRequestHandler.__init__(self)
 
     def do_GET(self):
         print("Just received a GET request")
